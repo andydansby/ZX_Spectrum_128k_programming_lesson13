@@ -1,0 +1,18 @@
+Object  file objects.o at $0000: Z80RMF12
+  Name: objects
+  Section code_compiler: 67 bytes
+  Section rodata_compiler: 17 bytes
+  Section bss_compiler: 2 bytes
+  Section UNCONTENDED_MAPSTART: 4096 bytes
+  Section UNCONTENDED: 0 bytes
+  Section CODE_END: 7 bytes
+  Symbols:
+    G A $0000 _karen (section bss_compiler) (file ram0.c:91)
+    G A $0000 _add_two_numbers3 (section code_compiler) (file ram0.c:22)
+    G A $0012 _uncontended (section code_compiler) (file ram0.c:39)
+    G A $0039 _main (section code_compiler) (file ram0.c:66)
+    G A $0000 _Data_Chunk (section UNCONTENDED_MAPSTART) (file ram0Z.asm:8)
+    G A $0000 _RAM_marker_MAIN (section CODE_END) (file ram0Z.asm:38)
+  Externs:
+    U         zx_cls
+    U         printf
