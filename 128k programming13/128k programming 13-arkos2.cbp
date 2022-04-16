@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="128k programming lesson 13 arkos2" />
+		<Option pch_mode="2" />
+		<Option compiler="sdcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/128k programming 1" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="sdcc" />
+				<Compiler>
+					<Add option="-mz80" />
+					<Add option="-g" />
+					<Add directory="../../128k_programming_11-vortex3" />
+				</Compiler>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Unit filename="../CONTENDED/contended.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../CONTENDED/externs.h" />
+		<Unit filename="../CONTENDED/mmap.inc" />
+		<Unit filename="../CONTENDED/ramlow.asm" />
+		<Unit filename="../CONTENDED/ramlow.bat" />
+		<Unit filename="../CONTENDED/ramlow.lst" />
+		<Unit filename="../CONTENDED/routines.h" />
+		<Unit filename="../CONTENDED/variables.h" />
+		<Unit filename="../CONTENDED/zpragma.inc" />
+		<Unit filename="../OBJECTS/error.bat" />
+		<Unit filename="../OBJECTS/magic.bat" />
+		<Unit filename="../RAM0/Arkos2_akg.asm" />
+		<Unit filename="../RAM0/arkos2Setup.asm" />
+		<Unit filename="../RAM0/arkos2_songs.asm" />
+		<Unit filename="../RAM0/error.bat" />
+		<Unit filename="../RAM0/externs.h" />
+		<Unit filename="../RAM0/mmap.inc" />
+		<Unit filename="../RAM0/ram0.bat" />
+		<Unit filename="../RAM0/ram0.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../RAM0/ram0.h" />
+		<Unit filename="../RAM0/ram0.lst" />
+		<Unit filename="../RAM0/ram0Z.asm" />
+		<Unit filename="../RAM0/songs/song1_compile.asm" />
+		<Unit filename="../RAM0/songs/song2_compile.asm" />
+		<Unit filename="../RAM0/variables.h" />
+		<Unit filename="../RAM0/zpragma.inc" />
+		<Unit filename="../RAM1/BANK1.asm" />
+		<Unit filename="../RAM1/error.bat" />
+		<Unit filename="../RAM1/mmap.inc" />
+		<Unit filename="../RAM1/ram1.bat" />
+		<Unit filename="../RAM1/ram1.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../RAM1/ram1.lst" />
+		<Unit filename="../RAM1/zpragma.inc" />
+		<Unit filename="../RAM3/BANK3.asm" />
+		<Unit filename="../RAM3/beep.bat" />
+		<Unit filename="../RAM3/error.bat" />
+		<Unit filename="../RAM3/mmap.inc" />
+		<Unit filename="../RAM3/ram3.bat" />
+		<Unit filename="../RAM3/ram3.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../RAM3/ram3.lst" />
+		<Unit filename="../RAM3/zpragma.inc" />
+		<Unit filename="../RAM4/BANK4.asm" />
+		<Unit filename="../RAM4/beep.bat" />
+		<Unit filename="../RAM4/error.bat" />
+		<Unit filename="../RAM4/mmap.inc" />
+		<Unit filename="../RAM4/ram4.bat" />
+		<Unit filename="../RAM4/ram4.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../RAM4/ram4.lst" />
+		<Unit filename="../RAM4/zpragma.inc" />
+		<Unit filename="../RAM6/BANK6.asm" />
+		<Unit filename="../RAM6/beep.bat" />
+		<Unit filename="../RAM6/error.bat" />
+		<Unit filename="../RAM6/ram6.bat" />
+		<Unit filename="../UNCONTENDED/IM2.asm" />
+		<Unit filename="../UNCONTENDED/cleanup.bat" />
+		<Unit filename="../UNCONTENDED/externs.h" />
+		<Unit filename="../UNCONTENDED/mmap.inc" />
+		<Unit filename="../UNCONTENDED/ramMain.lst" />
+		<Unit filename="../UNCONTENDED/rammain.bat" />
+		<Unit filename="../UNCONTENDED/uncontended.asm" />
+		<Unit filename="../UNCONTENDED/uncontended.bat" />
+		<Unit filename="../UNCONTENDED/uncontended.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../UNCONTENDED/uncontended.h" />
+		<Unit filename="../UNCONTENDED/variables.h" />
+		<Unit filename="../UNCONTENDED/zpragma.inc" />
+		<Unit filename="../bank_temp.bat" />
+		<Unit filename="../compile.bat" />
+		<Unit filename="../errors.txt" />
+		<Unit filename="../magic/voodoo.bat" />
+		<Unit filename="../notes.txt" />
+		<Unit filename="../utils/bankloader.bat" />
+		<Unit filename="../utils/bankswitcher.asm" />
+		<Unit filename="../utils/loader.bas" />
+		<Unit filename="../utils/temp notes.txt" />
+		<Extensions />
+	</Project>
+</CodeBlocks_project_file>
