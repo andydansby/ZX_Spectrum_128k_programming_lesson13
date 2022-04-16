@@ -1,0 +1,80 @@
+Object  file ramALL.o at $0000: Z80RMF12
+  Name: ramALL
+  Section code_compiler: 804 bytes
+  Section BANK_01: 5852 bytes
+  Section bss_compiler: 0 bytes
+  Section BANK_03: 1317 bytes
+  Section BANK_04: 1711 bytes
+  Section BANK_06: 1464 bytes
+  Section BANK_00: 12023 bytes
+  Section CONTENDED: 19 bytes
+  Section data_compiler: 12 bytes
+  Section rodata_compiler: 234 bytes
+  Section IM2_VECTOR_PLACEMENT: 326 bytes
+  Section code_user: 150 bytes
+  Section rodata_user: 1 bytes
+  Section smc_user: 0 bytes
+  Section data_user: 0 bytes
+  Section bss_user: 5 bytes
+  Symbols:
+    G A $0000 _screen1 (section BANK_01) (file BANK1.asm:5)
+    G A $0598 _screen2 (section BANK_01) (file BANK1.asm:9)
+    G A $0C8D _screen3 (section BANK_01) (file BANK1.asm:13)
+    G A $126E _screen4 (section BANK_01) (file BANK1.asm:17)
+    G A $0000 _screen5 (section BANK_03) (file BANK3.asm:4)
+    G A $0000 _screen6 (section BANK_04) (file BANK4.asm:4)
+    G A $0000 _screen7 (section BANK_06) (file BANK6.asm:4)
+    G A $0000 _PLY_AKG_Start (section BANK_00) (file Arkos2_akg.asm:35)
+    G A $0009 _PLY_AKG_Init (section BANK_00) (file Arkos2_akg.asm:42)
+    G A $00BC _PLY_AKG_STOP (section BANK_00) (file Arkos2_akg.asm:171)
+    G A $00CE _PLY_AKG_Play (section BANK_00) (file Arkos2_akg.asm:187)
+    G A $0C09 _BUFFER_UNCOMP (section BANK_00) (file arkos2_songs.asm:10)
+    G A $0C05 _TABLA_SONG_CMP (section BANK_00) (file arkos2_songs.asm:6)
+    G A $0C04 _akg_song (section BANK_00) (file arkos2_songs.asm:2)
+    G A $2453 _endBuffer (section BANK_00) (file arkos2_songs.asm:12)
+    G A $0BDE _UNCOMP_SONG (section BANK_00) (file arkos2Setup.asm:93)
+    G A $0BEE _ARKOS2_Setup (section BANK_00) (file arkos2Setup.asm:132)
+    G A $0000 _Variable_in_contended (section CONTENDED) (file ramlow.asm:28)
+    G A $0001 _add_two_numbers (section CONTENDED) (file contended.c:27)
+    G A $0000 _tom (section data_compiler) (file uncontended.c:17)
+    G A $0001 _dick (section data_compiler) (file uncontended.c:21)
+    G A $0002 _harry (section data_compiler) (file uncontended.c:25)
+    G A $0003 _eve (section data_compiler) (file uncontended.c:29)
+    G A $0005 _bob (section data_compiler) (file uncontended.c:33)
+    G A $0007 _ava (section data_compiler) (file uncontended.c:37)
+    G A $0008 _pauseTemp (section data_compiler) (file uncontended.c:41)
+    G A $0000 _multiply2numbers (section code_compiler) (file uncontended.c:49)
+    G A $0014 _enable_interupts (section code_compiler) (file uncontended.c:66)
+    G A $0016 _disable_interupts (section code_compiler) (file uncontended.c:74)
+    G A $0018 _ZX0_decompress (section code_compiler) (file uncontended.c:84)
+    G A $002D _key_test (section code_compiler) (file uncontended.c:101)
+    G A $006A _pauseLoop (section code_compiler) (file uncontended.c:135)
+    G A $00A7 _showScreen1 (section code_compiler) (file uncontended.c:167)
+    G A $00D4 _showScreen2 (section code_compiler) (file uncontended.c:194)
+    G A $0101 _showScreen3 (section code_compiler) (file uncontended.c:221)
+    G A $012E _showScreen4 (section code_compiler) (file uncontended.c:248)
+    G A $015B _showScreen5 (section code_compiler) (file uncontended.c:275)
+    G A $0188 _showScreen6 (section code_compiler) (file uncontended.c:302)
+    G A $01B5 _showScreen7 (section code_compiler) (file uncontended.c:329)
+    G A $01E2 _main (section code_compiler) (file uncontended.c:356)
+    G A $0000 _IM2_PUSH_POP (section IM2_VECTOR_PLACEMENT) (file im2.asm:27)
+    G A $0023 _SETUP_IM2 (section IM2_VECTOR_PLACEMENT) (file im2.asm:61)
+    G A $002E NOP_OP (section IM2_VECTOR_PLACEMENT) (file im2.asm:72)
+    G A $0034 _bank_switch (section IM2_VECTOR_PLACEMENT) (file im2.asm:87)
+    G A $0044 _IM2_VECTOR (section IM2_VECTOR_PLACEMENT) (file im2.asm:105)
+    G A $0000 _dzx0_turbo (section code_user) (file uncontended.asm:31)
+    G A $0085 _border_Change_IM2 (section code_user) (file uncontended.asm:126)
+    G A $0092 _border_Change_uncontended (section code_user) (file uncontended.asm:139)
+    G A $0000 _xyzzy2 (section rodata_user) (file uncontended.asm:151)
+    G A $0000 _zx0_source (section bss_user) (file uncontended.asm:167)
+    G A $0002 _zx0_destination (section bss_user) (file uncontended.asm:171)
+    G A $0004 _ada (section bss_user) (file uncontended.asm:176)
+  Externs:
+    U         l_gint
+    U         l_mult
+    U         l_glong
+    U         l_long_ult
+    U         l_inclong
+    U         zx_cls
+    U         printf
+    U         in_key_pressed
