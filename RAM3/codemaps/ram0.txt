@@ -1,0 +1,7 @@
+Object  file ram3.o at $0000: Z80RMF12
+  Name: RAM3
+  Section code_compiler: 0 bytes
+  Section BANK_03: 1468 bytes
+  Section bss_compiler: 0 bytes
+  Symbols:
+    G A $0000 _screen5 (section BANK_03) (file BANK3.asm:4)
